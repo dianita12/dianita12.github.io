@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "popping", sans-serif;
+}
+body{
+    background-image: linear-gradient(135deg,#00B7D4, #505488,#2F3F80,#156962,#5A4894,#A950A1,#FF7CAE);
+    background-size: 500%; 
+    animation: fondoanimado 16s infinite; 
+}
+@keyframes fondoanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+header, section, footer, aside, nav, article hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+    
+}
+
+.agrupar{
+    width: 960px ;
+    border: px solid black;
+    margin: 15px auto;
+    background:(87, 78, 78);
+}
+.cabecera{
+    left: 500px;
+    position: relative;
+    border-radius:500px;
+    width: 200px;
+    height: 40px;
+    background-color: #ddd;
+    text-align: center;
+    animation-name:bienbenidos;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    direction: 500px;
+       
+}
+@keyframes  bienbenidos {
+    from {
+        left: 30px;
+    background-color: #ddd;
+    }
+    to {
+        left: 400px;
+        background-color: aqua
+}
+}.cabecera h1 {
+    text-align: left;
+}
+.menu{
+    
+    padding: 5px 15px;
+    text-align: left;
+}
+.menu li{
+       /*iluminacion en el li de hamburguesa*/
+    list-style: none;
+    padding: 5px;
+    font:bold 14px verdana;
+    display: inline-block;
+    border-radius: 400px;
+}
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+article{
+    
+    
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+    
+
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+.columna{
+    margin-top: 20px;
+    width: 300px;
+    float: left;
+
+}
+.columna blockquote {
+    border: px solid(255, 3, 3);
+    padding: 40px;
+    
+    margin-bottom: 40px;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #b2bece;
+    position:500px;
+    text-align:center;
+    border-radius:200px ;
+}
+img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-style: solid;
+    
+    border-width: 1px;
+}
+.seccion li {
+    text-align: left;
+    margin-left: 15px;
+}
+p{
+    text-align: justify;
+    line-height: 23px;
+}
